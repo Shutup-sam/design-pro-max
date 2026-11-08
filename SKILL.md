@@ -153,3 +153,4 @@ design-pro-max/
 ├── canvas-fonts/            # 81 curated typography fonts
 └── agents/                  # Impeccable agent specifications
 ```
+

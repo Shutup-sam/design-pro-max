@@ -30,24 +30,29 @@ Design Pro Max combines 9 distinct design powerhouses into a single, cohesive op
 
 ## 🚀 Quick Installation
 
-Clone this repository into your AI agent's skill directory:
-
-### For Google Antigravity
+### One-Line Install (Automatic Harness Detection)
 ```bash
-# User-level skills (accessible across all workspaces)
-git clone https://github.com/<YOUR_USERNAME>/design-pro-max.git ~/.agents/skills/design-pro-max
+curl -fsSL https://raw.githubusercontent.com/shutup-sam/design-pro-max/main/install.sh | bash
 ```
 
-### For Claude Code
+### Or Manual Installation by Agent
+
+#### For Google Antigravity
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/design-pro-max.git ~/.claude/skills/design-pro-max
+# Global skills (accessible across all workspaces)
+git clone https://github.com/shutup-sam/design-pro-max.git ~/.agents/skills/design-pro-max
 ```
 
-### For Cursor / Windsurf / Project-level
+#### For Claude Code
+```bash
+git clone https://github.com/shutup-sam/design-pro-max.git ~/.claude/skills/design-pro-max
+```
+
+#### For Cursor / Windsurf / Project-level
 ```bash
 # In your project root
 mkdir -p .agents/skills
-git clone https://github.com/<YOUR_USERNAME>/design-pro-max.git .agents/skills/design-pro-max
+git clone https://github.com/shutup-sam/design-pro-max.git .agents/skills/design-pro-max
 ```
 
 ---
@@ -163,3 +168,4 @@ Contributions, new styles, font pairings, and additional stack specifications ar
 ## 📄 License
 
 Distributed under the [MIT License](LICENSE).
+
