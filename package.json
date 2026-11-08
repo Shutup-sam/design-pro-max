@@ -1,0 +1,26 @@
+{
+  "name": "design-pro-max",
+  "version": "2.0.0",
+  "description": "All-in-one UI/UX design intelligence, design system, frontend styling, brand identity, generative UI, creative assets, and quality audit suite for AI agents",
+  "main": "scripts/search.py",
+  "scripts": {
+    "test": "python3 scripts/validate_data.py",
+    "search": "python3 scripts/search.py",
+    "detect": "node scripts/detector/cli/main.mjs"
+  },
+  "keywords": [
+    "ai-agent",
+    "skill",
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "ui-ux",
+    "design-system",
+    "tailwind",
+    "shadcn-ui",
+    "generative-ui",
+    "branding"
+  ],
+  "author": "Community",
+  "license": "MIT"
+}
